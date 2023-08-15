@@ -1,0 +1,22 @@
+Website:   https://gibuu.hepforge.org/trac/wiki
+
+prerequisites:  https://gibuu.hepforge.org/trac/wiki/tools
+
+1)  Download GiBUU.  See  https://gibuu.hepforge.org/trac/wiki/download
+
+2)  Compile it:
+
+https://gibuu.hepforge.org/trac/wiki/compiling
+
+Notes:  Make sure to include the "withROOT" option in the "make" arguments.
+See the section on "Compiling against a ROOT installation".  
+
+3)  Run it:
+
+./GiBUU.x < my_setup.job
+
+where my_setup.job is a job file.  A few are enclosed here with names like
+"014_HiLepton_clas12_nolamdec.job"
+
+for more info on running GiBUU, see:
+https://gibuu.hepforge.org/trac/wiki/running
